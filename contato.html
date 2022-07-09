@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="div">
+            <div class="ad">
+                <a class="links-menu fs" href="#">AD</a>
+            </div>
+            <nav id="primarynavigation" class="headernav" aria-labelledby="primarynavigation">
+                <a class="links-menu" href="index.html#habilidades">Habilidades</a>
+                <a class="links-menu" href="index.html">Início</a>
+                <a class="links-menu" href="index.html#sobre-mim">Sobre Mim</a>
+            </nav>
+        </div>
+        <h1>Alécio David</h1>
+        <h2 class="header-description"><span class="entreEmContato">Entre Em Contato</span></h2>
+    </header>
+
+    <main>
+        <h2 class="heading-contato">Contato</h2>
+
+        <div class="divform">
+            <form action="mailto:fakemail@example.coom" method="post" enctype="text/plain">
+                <fieldset>
+                    <p class="pform">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="seu nome" required autofocus>
+                    </p>
+                    <p class="pform">
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="seu sobrenome" required>
+                    </p>
+                    <p class="pform">
+                        <label for="nome">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="seu email" required>
+                    </p>
+                    <p>
+                        <label for="textarea">Envie Sua Mensagem:</label> <br>
+                        <textarea name="mensagem" id="textarea" cols="30" rows="10"
+                            placeholder="Sua mensagem aqui (opcional)"></textarea>
+                    </p>
+                </fieldset>
+                <button class="botaoEnviar">Enviar</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <nav id="footernavigation" class="footernav" aria-labelledby="footernavigation">
+            <a target="_blank" class="footerLinks" href="https://www.instagram.com">Instagram</a>
+            <a target="_blank" class="footerLinks" href="https://www.youtube.com">YouTube</a>
+            <a class="footerLinks" href="#">Voltar ao Topo</a>
+        </nav>
+        <p class="copyright">&copy;&nbsp; Alécio&nbsp;&nbsp; David</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Arvo', serif;
+
+    /* background-attachment: fixed; */
+}
+
+header {
+    min-height: 43.75rem;
+    /* background-color: #EEF6F4; */
+    position: relative;
+    background-image: url(/img/bcimage.jpg);
+    background-repeat: no-repeat;
+}
+
+.div {
+    position: sticky;
+    top: 0.3125rem;
+}
+
+.ad {
+    display: inline-block;
+    margin-top: 1.2rem;
+    position: absolute;
+    left: 3.125rem;
+}
+
+.fs {
+    font-size: 2rem;
+}
+
+.headernav {
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    /* background-color: aquamarine; */
+    margin-top: 1rem;
+    position: absolute;
+    right: 0.625rem;
+    font-size: 1.2rem;
+}
+
+.links-menu, .footerLinks {
+    color: #B3F4FF;    
+    margin: 0 1.25rem;
+    text-decoration: none;   
+    font-style: italic;
+    font-weight: bold;
+}
+
+.links-menu:hover, .footerLinks:hover {
+    color: hsl(214, 100%, 85%);      
+}
+
+
+h1 {
+    color: #B3F4FF;    
+    margin: 0;
+    display: inline-block;
+    font-size: 5rem;
+    margin-top: 12.5rem;
+}
+
+.header-description {
+    color: #B3F4FF;
+    margin-top: 3.125rem;
+}
+
+hr {
+    border: dashed 3px #fff;
+    height: 0;
+    position: relative;
+    bottom: 1.68rem;
+}
+
+main {
+    background-color: #5E6390;
+    padding: 1.25rem 0 0;
+}
+
+.heading-habilidade {
+    margin-bottom: 3rem;
+}
+
+.heading-habilidade, h3, label, .heading-contato {
+    color: whitesmoke;
+}
+
+.sobre-mim {
+    margin-bottom: 12.5rem;
+}
+
+
+.sobre-mimh2 {
+    color: whitesmoke;
+    margin: 3.125rem auto;
+}
+
+
+.sobre-mimimg {
+    border-radius: 7.81rem;
+}
+
+.psobre-mim {
+    margin: 3.125rem auto;
+    width: 60%;
+    text-align: left;
+}
+
+.psobre-mim, .skill-p {
+    color: lightcyan;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.tundsInsta {
+    text-decoration: none;
+    color: #B3F4FF;
+    font-style: italic;
+}
+
+.tundsInsta:hover {
+    color: hsl(214, 100%, 85%);    
+    text-decoration: none;   
+    font-style: italic;
+}
+
+mark {
+    background-color: whitesmoke;
+}
+
+.skill-row {
+    margin: 6.25rem auto 15rem;
+    text-align: center;
+    padding: 0 5rem;
+}
+
+figure {
+    float: right;
+    line-height: 2;
+    color: lightgray;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin: 0;
+}
+.skill-img {
+    float: left;
+    margin-right: 1.875rem;
+}
+
+.cozinhaImg {
+    float: right;
+    margin-left: 1.875rem;
+    margin-right: 0;
+}
+
+footer {
+    background-color: #7578A3;
+    padding: 1rem 0;
+}
+
+.copyright {
+    margin: 1.25rem 0 0;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.footernav {
+    padding: 1.5rem 0;
+}
+
+.footerLinks {
+    margin: 0 1.25rem;
+}
+
+/* contato.html stylesheet */
+
+.entreEmContato {
+    color: white;
+}
+
+
+
+form {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: none;
+    border-radius: 0.7rem;
+    background-color: indigo;
+}
+
+
+.botaoEnviar {
+    border: none;
+    background-color: indigo;
+    border-radius: 0.3rem;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    margin: 0.7rem auto;
+    padding: 0.7rem 1.25rem;
+}
+
+.botaoEnviar:hover {
+    border: none;
+    background-color: hsl(258, 100%, 25%);
+    border-radius: 0.3rem;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    margin: 0.7rem auto;
+    padding: 0.7rem 1.25rem;
+}
+
