@@ -7,23 +7,23 @@ body {
 }
 
 header {
-    min-height: 43.75rem;
+    min-height: 700px;
     /* background-color: #EEF6F4; */
     position: relative;
-    background-image: url(/img/bcimage.jpg);
+    background-image: url(../img/bcimage.jpg);
     background-repeat: no-repeat;
 }
 
 .div {
     position: sticky;
-    top: 0.3125rem;
+    top: 5px;
 }
 
 .ad {
     display: inline-block;
     margin-top: 1.2rem;
     position: absolute;
-    left: 3.125rem;
+    left: 50px
 }
 
 .fs {
@@ -37,7 +37,7 @@ header {
     /* background-color: aquamarine; */
     margin-top: 1rem;
     position: absolute;
-    right: 0.625rem;
+    right: 10px;
     font-size: 1.2rem;
 }
 
@@ -59,24 +59,24 @@ h1 {
     margin: 0;
     display: inline-block;
     font-size: 5rem;
-    margin-top: 12.5rem;
+    margin-top: 200px;
 }
 
 .header-description {
     color: #B3F4FF;
-    margin-top: 3.125rem;
+    margin-top: 50px;
 }
 
 hr {
     border: dashed 3px #fff;
     height: 0;
     position: relative;
-    bottom: 1.68rem;
+    bottom: 27px;
 }
 
 main {
     background-color: #5E6390;
-    padding: 1.25rem 0 0;
+    padding: 20px 0;
 }
 
 .heading-habilidade {
@@ -94,16 +94,16 @@ main {
 
 .sobre-mimh2 {
     color: whitesmoke;
-    margin: 3.125rem auto;
+    margin: 50px auto;
 }
 
 
 .sobre-mimimg {
-    border-radius: 7.81rem;
+    border-radius: 125px;
 }
 
 .psobre-mim {
-    margin: 3.125rem auto;
+    margin: 50px auto;
     width: 60%;
     text-align: left;
 }
